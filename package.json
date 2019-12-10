@@ -1,0 +1,32 @@
+{
+  "name": "full-stack-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike4141/full-stack-react-app.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Michael Peavy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike4141/full-stack-react-app/issues"
+  },
+  "homepage": "https://github.com/Mike4141/full-stack-react-app#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "pg": "^7.14.0"
+  }
+}
