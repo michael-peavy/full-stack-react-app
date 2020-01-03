@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -6,6 +7,33 @@
   height: 40vmin;
   pointer-events: none;
 }
+.btn {
+margin: 150px;
+margin-top: 20px;
+width: 1000px;
+}
+
+.bg {
+  
+  padding: 50px;
+  margin: 20px;
+  border: 1px solid #BFBFBF;
+  background-color: rgb(100, 70, 70);
+}
+
+.navbar {
+  height:50px;
+  display:flex;
+  align-items: center;
+  flex-direction:row-start;
+  margin-bottom:5px;
+  padding-bottom:60px;
+
+  background-color:rgba(12, 12, 15, 0.534);
+  font-family: 'Roboto', sans-serif;
+  font-size:13px;
+  }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
